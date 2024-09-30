@@ -9,6 +9,15 @@ sequenceDiagram
  deactivate Webserver
  Firewall->>Botnet: Blocks attacks using a firewall
 
-
+%%###Key Participants
+ *Attacker
+  *A person or group initiating the DDoS attack. The goal could be financial gain, revenge, or simply hacktivism
+ *Botnet
+  * A collection of bots that are controlled by the attacker. used to send traffic in a coordinated attack.
+ * Webserver
+  * The target for the attacker. 
+  * The goal is to prevent the server from functioning properly.
+ * Firewall
+  * Defense mechanism that attempts to filter or block suspicious activity.
 ```
 
