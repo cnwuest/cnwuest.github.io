@@ -4,6 +4,10 @@ sequenceDiagram
  participant BotNet
  participant WebServer
  participant Firewall
+ Attacker ->> BotNet
+ Botnet->> Webserver
+ deactivate webserver
+ Firewall ->> Botnet
 
 
 ```
