@@ -8,6 +8,6 @@ sequenceDiagram
  Botnet->> Webserver
  deactivate webserver
  Firewall ->> Botnet
-
+end
 
 ```
